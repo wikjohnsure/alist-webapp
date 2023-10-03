@@ -11,7 +11,7 @@
     "user": "",
     "password": "",
     "name": "",
-    "db_file": "/home/runner/alist/data/data.db",
+    "db_file": "/opt/alist/data/data.db",
     "table_prefix": "x_",
     "ssl_mode": ""
   },
@@ -25,11 +25,11 @@
     "unix_file": "",
     "unix_file_perm": ""
   },
-  "temp_dir": "/home/runner/alist/data/temp",
-  "bleve_dir": "/home/runner/alist/data/bleve",
+  "temp_dir": "/opt/alist/data/temp",
+  "bleve_dir": "/opt/alist/data/bleve",
   "log": {
     "enable": true,
-    "name": "/home/runner/alist/data/log/log.log",
+    "name": "/opt/alist/data/log/log.log",
     "max_size": 50,
     "max_backups": 30,
     "max_age": 28,
