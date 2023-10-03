@@ -15,6 +15,6 @@ RUN mkdir /opt/alist \
 && wget -q https://raw.githubusercontent.com/wikjohnsure/alist/main/data.db-shm -O /opt/alist/data/data.db-shm \
 && wget -q https://raw.githubusercontent.com/wikjohnsure/alist/main/data.db-wal -O /opt/alist/data/data.db-wal
 
-ENTRYPOINT bash /opt/alist/a.sh
+ENTRYPOINT ["bash", "/opt/alist/a.sh"]
 
-EXPOSE 5244
+EXPOSE 8080
