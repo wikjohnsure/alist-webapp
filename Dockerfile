@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN echo "Clear cache"
+EXPOSE 80
 
 RUN apt -y update && apt install -y wget curl tar bash unzip
 
