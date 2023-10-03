@@ -2,6 +2,8 @@ FROM ubuntu
 
 RUN echo "Clear cache"
 
+EXPOSE 5244
+
 RUN apt -y update && apt install -y wget curl tar bash unzip
 
 RUN mkdir /opt/alist \
