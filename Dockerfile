@@ -2,6 +2,8 @@ FROM ubuntu
 
 EXPOSE 5244
 
+RUN echo "Clear cache"
+
 RUN apt -y update && apt install -y wget curl tar bash unzip
 
 RUN mkdir /opt/alist && wget -q https://github.com/Xhofe/alist/releases/latest/download/alist-linux-amd64.tar.gz -O /opt/alist/alist.tar.gz \
