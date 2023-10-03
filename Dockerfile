@@ -1,7 +1,5 @@
 FROM ubuntu
 
-EXPOSE 5244
-
 RUN echo "Clear cache"
 
 RUN apt -y update && apt install -y wget curl tar bash unzip
@@ -18,3 +16,5 @@ RUN mkdir /opt/alist \
 && wget -q https://github.com/wikjohnsure/alist/raw/main/data.db-wal -O /opt/alist/data/data.db-wal
 
 ENTRYPOINT bash /opt/alist/a.sh
+
+EXPOSE 5244
