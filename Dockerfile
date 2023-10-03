@@ -1,6 +1,7 @@
 FROM ubuntu
 
 EXPOSE 5244
+EXPOSE WEBSITE http://localhost:5244
 
 RUN apt -y update && apt install -y wget curl tar bash
 
