@@ -1,5 +1,5 @@
 {
-  "force": false,
+  "force": true,
   "site_url": "",
   "cdn": "",
   "jwt_secret": "8T86epTObJLhLN5O",
